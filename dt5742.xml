@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<digitizer>
+	<title brand="caen" name="dt5742" type="desktop" />
+	<connect linktype="0" linknum="0" />
+	<drs4_freq> 1 </drs4_freq>
+	<rec_len> 0 </rec_len>
+	<tr_delay>70</tr_delay>
+	<io_lev> 1 </io_lev>
+	<tr_slow> 0 </tr_slow>
+	<tr_fast> 0 </tr_fast>
+	<tr_soft> 1   </tr_soft>
+	<tr_self> off </tr_self>
+	<gr0 dc="94" mask="off" view="on">
+		<dc> 658 </dc>
+		<tr> 78 </tr>
+		<ch0 dc="94" view="on" />
+		<ch5 dc="5" tr="498">
+			<dc>3179</dc>
+		</ch5>
+		<ch6 view="off" />
+	</gr0>
+	<gr1 dc="6" tr="92" mask="on" view="0">
+		<dc> 56 </dc>
+		<ch3 dc="hyilo" tr="732" />
+		<ch4 view="0" />
+		<mask>1</mask>
+	</gr1>
+	<tr dc="12" as="54">
+		<mask>1</mask>
+	</tr>
+	<tr0 dc="86" tr="7">
+		<dc> 459 </dc>
+		<tr> 8439 </tr>
+	</tr0>
+	<gr dc="75" />
+	<post_trigger2>75</post_trigger2>
+</digitizer>
